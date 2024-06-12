@@ -35,7 +35,7 @@ public class find_longest_unique_string
 
 	public static void main(String[] args) 
 	{
-		String string="bcdc";
+		String string="bcdecfc";
 		String largest_String= unique_String(string);
 		System.out.println(largest_String);
 
