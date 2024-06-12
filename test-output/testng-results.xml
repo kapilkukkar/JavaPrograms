@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T20:47:49 EDT" name="Default suite" finished-at="2024-06-11T20:47:49 EDT" duration-ms="40">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T20:47:49 EDT" name="Default test" finished-at="2024-06-11T20:47:49 EDT" duration-ms="40">
+      <class name="JavaLeanring.JavaPrograms.reversenumber">
+        <test-method signature="reverse_number_approach()[pri:0, instance:JavaLeanring.JavaPrograms.reversenumber@9353778]" started-at="2024-06-11T20:47:49 EDT" name="reverse_number_approach" finished-at="2024-06-11T20:47:49 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reverse_number_approach -->
+      </class> <!-- JavaLeanring.JavaPrograms.reversenumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
