@@ -5,8 +5,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import javax.sql.rowset.JoinRowSet;
-
 public class duplicateElementInArray_1 
 {
 	public static void duplicate_element(int[] arr)
