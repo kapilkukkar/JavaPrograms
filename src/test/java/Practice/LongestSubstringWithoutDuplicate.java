@@ -32,7 +32,7 @@ public class LongestSubstringWithoutDuplicate
 	
 	public static void main(String[] args)
 	{
-		String str="bcdc";
+		String str="bcdfefe";
 		String final_string=unique_string(str);		
 		System.out.println(final_string);
 		

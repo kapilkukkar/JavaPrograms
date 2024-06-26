@@ -9,7 +9,7 @@ public class HighestLowestProduct {
 		int lowestProduct = findLowestProduct(array);
 
 		System.out.println("Highest product: " + highestProduct);
-		//System.out.println("Lowest product: " + lowestProduct);
+		System.out.println("Lowest product: " + lowestProduct);
 	}
 	public static int findHighestProduct(int[] array) 
 	{
