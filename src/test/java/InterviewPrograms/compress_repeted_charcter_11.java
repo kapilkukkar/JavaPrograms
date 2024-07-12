@@ -7,12 +7,14 @@ public class compress_repeted_charcter_11
 		StringBuilder builder=new StringBuilder();
 		int count =1;
 		char[] ch= input.toCharArray();
+		System.out.println(input.length());
 		for(int i=1;i<input.length();i++)
 		{
-			if(ch[i]!=ch[i-1]|| i==input.length())
+			if(ch[i]!=ch[i-1])
 			{
 				builder.append(ch[i-1]);
 				builder.append(count);
+				
 				count=1;			
 			}
 			else
@@ -20,13 +22,15 @@ public class compress_repeted_charcter_11
 				count++;
 			}
 		}
+		builder.append(ch[input.length() - 1]);
+        builder.append(count);		
 		return builder.toString();		
 	}
 	
 
 	public static void main(String[] args) 
 	{
-		String string="aaddhhffyybbbaaa";
+		String string="aaxxzzxrT";
 		String compact_String=compress_string(string);
 		System.out.println(compact_String);
 

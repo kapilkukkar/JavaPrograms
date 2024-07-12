@@ -39,6 +39,7 @@ public class Sorting {
 		int maximum= Arrays.stream(array).max().getAsInt();
 		System.out.println(minumum);
 		System.out.println(maximum);
+		System.out.println(5+2+ "8");
 	}
 		
 		

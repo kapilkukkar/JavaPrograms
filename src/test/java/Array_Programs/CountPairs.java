@@ -12,12 +12,12 @@ public class CountPairs
 		{
 			total_pair.put(num, total_pair.getOrDefault(num,0)+1);
 		}
-		System.out.println(total_pair.values());
+		
 		int pair_count=0;
 		for(int count:total_pair.values())
 		{
 			pair_count+=count/2;
-			System.out.println("pair count:" +pair_count);
+			
 		}
 		
 		return pair_count;
