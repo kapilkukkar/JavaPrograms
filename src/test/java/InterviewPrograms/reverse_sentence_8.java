@@ -16,7 +16,7 @@ public class reverse_sentence_8
 
 	public static void main(String[] args) 
 	{
-		String str= "how you doing";
+		String str= "how you doing wow";
 		String reversedString=reversed(str);
 		System.out.println(reversedString);
 

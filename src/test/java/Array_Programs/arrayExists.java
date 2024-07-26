@@ -43,6 +43,6 @@ public class arrayExists
 
 //        System.out.println(exsist_binary(ints, 102));  // true
 //        System.out.println(exsist_binary(ints, 9));   
-        System.out.println(exists(ints, 105));  // false
+          System.out.println(exists(ints, 105));  // false
     }
 }

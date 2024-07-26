@@ -26,7 +26,7 @@ public class CountPairs
 
 	public static void main(String[] args) 
 	{
-		int[] arr= {1,1,2,2,8,8,9,1,2,8,9,8,1,2};
+		int[] arr= {1,1,2,2,8,8,9,1,2,8,9,8,1,2};		
 		int pairs= count_number_of_pairs(arr);
 		System.out.println(pairs);
 		

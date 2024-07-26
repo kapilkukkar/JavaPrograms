@@ -8,9 +8,10 @@ public class longestUniqueSubstring_3
 
 	public static void main(String[] args) 
 	{
-		String string="bcdecfc";
+		String string="abcabcbb";
 		String newstr=unique_string(string);
-		System.out.println(newstr);
+		System.out.println( "length of String is= " + newstr.length()+"\n"+newstr);
+		
 
 	}
 

@@ -26,6 +26,7 @@ public class find_pairs_7
 			{
 				set.add(num);
 			}
+			System.out.println(set);
 			
 		}
 		return arrayList;
@@ -39,7 +40,7 @@ public class find_pairs_7
 		List<int[]> list= find_pairs(arr, total_sum);
 		for(int[] num:list)
 		{
-			System.out.println(Arrays.toString(num));
+			//System.out.println(Arrays.toString(num));
 		}
 		
 
